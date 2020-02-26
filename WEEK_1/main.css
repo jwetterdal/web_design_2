@@ -1,1 +1,38 @@
 /* first resopnsive site */
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+ width:100%;
+ background-color: grey;
+ height: 30px;
+
+}
+
+nav{
+width: 150px;
+margin-top: 1px;
+
+
+}
+
+
+
+#toggleAssist, 
+ul.nav-links {
+     display: none;
+     text-decoration: none;
+     background-color: rgb(255, 186, 154);
+}
+
+#toggleAssist:checked + ul.nav-links {
+ display: block;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: bold;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  
+}
+
