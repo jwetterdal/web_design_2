@@ -56,3 +56,28 @@ ul.nav-links {
 
 }
 
+@media (min-width: 450px) {
+    main {
+        width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .toggle-button {
+        display: none;
+    }
+
+    ul.nav-links {
+        display: block;
+        float: right;
+    }
+
+    .nav-links li {
+        display: inline-block;
+        padding: 10px;
+        border-bottom: none;
+    }
+
+    main {
+        width: 650px;
+    }
