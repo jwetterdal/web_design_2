@@ -3,9 +3,18 @@
     min-height: 200px;
 
 }
+img {
+    width: 100%;
+    align-content: center;
+}
 
 .w-100 {
 width: 100%;
+}
+
+.w-50 {
+width: 50%;
+
 }
 
 @media(min-width: 550px) {
@@ -17,6 +26,7 @@ width: 100%;
 .w-md-33 {
     width: 33,3%;
 }
+
 
 } /*end of md query*/
 
