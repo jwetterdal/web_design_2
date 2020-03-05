@@ -8,22 +8,24 @@ body {
 
 
 header {
- width: 100%;
- background: url(coffee.jpg);
- height: 300px;
+ background: url(header.jpg);
+ height: 400px;
 
 }
 
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 300px;
+    color: rgb(66, 49, 34);
 }
 
 p {
-    padding-left: 40px;
+    padding-left: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+
 }
 img.logo {
     float: right;
@@ -131,5 +133,31 @@ ul.nav-links a:hover{
 
 ul.nav-links a:hover{
  color: #b5c5c5;
+ 
 }
+
+.div.floater.w-100.w-md-50.red-bg {
+    height: 670px;
+
+}
+.div.floater.w-100.w-md-50.green-bg {
+    height: 670px;
+
+}
+
+p {
+    padding-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 90px;
+
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(66, 49, 34);
+}
+
 } /* END OF DESKTOP VERSIOM */
