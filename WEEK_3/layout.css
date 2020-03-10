@@ -1,0 +1,50 @@
+.floater {
+    float: left;
+    min-height: 200px;
+
+}
+img {
+    width: 100%;
+    align-content: center;
+}
+
+.w-100 {
+width: 100%;
+}
+
+.w-50 {
+width: 50%;
+
+}
+
+@media(min-width: 550px) {
+
+.w-md-50 {
+    width: 50%;
+    height: 326px;
+}
+
+.w-md-33 {
+    width: 33,3%;
+}
+
+
+} /*end of md query*/
+
+@media(min-width: 960px) {
+  .w-lg-30 {
+      width: 30%;
+      height: 380px;
+  }
+  .w-lg-25 {
+      width: 25%;
+  }
+ .w-lg-75{
+    width: 75%;
+
+ }
+      
+     
+  }
+ 
+} /*end of lg query*/
