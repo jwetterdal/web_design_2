@@ -27,15 +27,16 @@ h2{
     font-size: 30px;
     text-align: center;
     margin-top: 30px;
-    color: rgb(66, 49, 34);
+    color:#b3cabf;
 }
 
 p {
     margin-top: 20px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(66, 49, 34);
+    color:#b3cabf;
     font-size: 12px;
+    padding: 30px;
 }
 img.logo {
     float: right;
@@ -198,14 +199,14 @@ h1{
     font-size: 40px;
     text-align: center;
     margin-top: 80px;
-    color: #423122;
+    color:rgb(66, 49, 34);
 }
 h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 40px;
-    color: rgb(66, 49, 34);
+    color: #b3cabf;
 }
 
 } /* END OF DESKTOP VERSIOM */

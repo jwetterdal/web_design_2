@@ -21,6 +21,7 @@ width: 50%;
 
 .w-md-50 {
     width: 50%;
+    height: 326px;
 }
 
 .w-md-33 {
@@ -33,10 +34,11 @@ width: 50%;
 @media(min-width: 960px) {
   .w-lg-50 {
       width: 50%;
-     
+      height: 380px;
   }
   .w-lg-100 {
       width: 100%;
+      
      
   }
  
