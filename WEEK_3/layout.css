@@ -1,11 +1,13 @@
 .floater {
     float: left;
     min-height: 200px;
+    
 
 }
 img {
     width: 100%;
     align-content: center;
+    padding: 30px;
 }
 
 .w-100 {
@@ -36,11 +38,14 @@ width: 50%;
       width: 30%;
       height: 380px;
   }
-  .w-lg-25 {
-      width: 25%;
+  .w-lg-30 {
+      width: 30%;
+      height: 530px;
   }
- .w-lg-75{
-    width: 75%;
+ .w-lg-60{
+    width: 60%;
+   height: 530px;
+   padding-right: 30px;
 
  }
       

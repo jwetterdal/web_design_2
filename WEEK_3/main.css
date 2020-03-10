@@ -4,14 +4,13 @@
 body {
     margin: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #f1e2de;
+    background-color: #ffd8d9;
 }
 
 
 header {
- background: url(contact.png);
+ background: url(header.png)
  
-
 }
 
 h1{
@@ -43,6 +42,7 @@ img.logo {
     width: 90px;
 }
 
+
 li {
 
   border-bottom: 1px solid #555;
@@ -51,7 +51,7 @@ li {
 
 li a {
  text-decoration: none;
- color: #f6dcd7;
+ color: #7fbedb;
 
 }
  
@@ -62,9 +62,7 @@ ul.nav-links {
     color: black;
     padding: 5px 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #b3cabf;
     min-width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
@@ -96,13 +94,7 @@ button {
 
 }
 
-img {
-  width: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 
-}
 
 
 @media (min-width: 450px) {
@@ -124,7 +116,7 @@ img {
 
     li a {
         text-decoration: none;
-        color: #f6dcd7;
+        color: #7fbedb;
     }
 
     .nav-links li {
@@ -141,15 +133,12 @@ img {
 
     #toggleAssist, ul.nav-links {
     display: block;
-    color: black;
     margin: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #b3cabf;
     min-width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
    margin-left: auto;
     margin-right: auto;
+    border: none;
  
    
 }
@@ -162,12 +151,10 @@ ul.nav-links a:hover{
 
 }
 header{
-height: 700px
+height: 620px
 
 }
 img {
-    width: 400px;
-    margin-top: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
