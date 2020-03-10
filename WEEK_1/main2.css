@@ -2,13 +2,13 @@
 body {
     margin: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #fef2f1;
+
 }
 
 
 header {
  width: 100%;
- background-color: #ffffff;
- height: 100px;
 
 }
 
@@ -37,7 +37,7 @@ label {
 
 li a {
  text-decoration: none;
- color: #f6dcd7;
+ color: #f6941d;
 
 }
 
@@ -55,11 +55,11 @@ padding: 10px;
 ul.nav-links {
      display: none;
      text-decoration: none;
-     background-color: rgb(184, 195, 245);
+     background-color: #026f4c;
 }
 
 ul.nav-links a:hover{
-    color: #aef8f8;
+    color: #026f4c;
    
    }
 
@@ -78,9 +78,6 @@ ul.nav-links a:hover{
 
 }
 
-main {
-    background-color: #ffffff;
-}
 
 
 
@@ -123,12 +120,8 @@ main {
 }
 
 ul.nav-links a:hover{
- color: #b5c5c5;
+ color: #026f4c;
 }
 
-img {
-    margin-left: 300px;
-    margin-top: 20px;
-}
 
 } /* END OF DESKTOP VERSIOM */
