@@ -2,6 +2,7 @@
     float: left;
     min-height: 200px;
     
+    
 
 }
 img {
@@ -9,6 +10,7 @@ img {
     align-content: center;
     padding: 30px;
 }
+
 
 .w-100 {
 width: 100%;
