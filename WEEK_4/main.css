@@ -5,7 +5,7 @@
     width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #444;
   }
   
@@ -22,9 +22,21 @@
     margin-top: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
+ 
+  }
+
+  .texth1 h1 {
+    font-size: 36px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ffcead;
+
+  }
+
+  .texth1 h2 {
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffe6d5;
+
   }
 
   .a {
@@ -88,10 +100,23 @@
           margin-top: 80px; 
           left: 50%;
           transform: translate(-50%, -50%);
-          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-          font-size: 70px;
-          color:  #ffcead;
+        
         }
+
+
+  .texth1 h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffcead;
+
+  }
+
+  .texth1 h2 {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffe6d5;
+
+  }
     
         .a {
             grid-column: 1 / 4;
