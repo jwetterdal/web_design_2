@@ -11,8 +11,20 @@
 <body>
     
     <div class="wrapper">
-        <div class="box a">SMOOTIE</div>
-        <div class="box b">B</div>
+        <div class="box a">SMOOTIE
+                <picture>
+                        <source media="(min-width: 650px)" srcset="a.png">
+                        <source media="(min-width: 465px)" srcset="a2.png">
+                        <img src="a.png" alt="b" style="width:auto;">
+                      </picture>
+        </div>
+        <div class="box b">B
+                <picture>
+                        <source media="(min-width: 650px)" srcset="b.png">
+                        <source media="(min-width: 465px)" srcset="b2.png">
+                        <img src="b.png" alt="b" style="width:auto;">
+                      </picture>
+        </div>
         <div class="box c">C
                 <img src="mango.png"> 
         </div>
