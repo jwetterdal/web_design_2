@@ -1,9 +1,8 @@
-body {
-    margin: 40px;
-  }
+
   
   .wrapper {
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     background-color: #fff;
@@ -18,11 +17,23 @@ body {
     font-size: 150%;
   }
 
+  .texth1 {
+    position: absolute;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffcead;
+  }
+
   .a {
     grid-column: 1 / 3;
     grid-row: 1;
     text-align: center;
+    
 }
+
 .b {
     grid-column: 1 / 3;
     grid-row: 2;
@@ -53,9 +64,7 @@ body {
 
   @media (min-width: 960px){
 
-    body {
-      margin: 40px;
-    }
+  
     
     .wrapper {
         display: grid;
@@ -72,6 +81,16 @@ body {
             padding: 10px;
             font-size: 150%;
     
+        }
+
+        .texth1 {
+          position: absolute;
+          margin-top: 80px; 
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-size: 70px;
+          color:  #ffcead;
         }
     
         .a {
