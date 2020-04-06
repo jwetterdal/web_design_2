@@ -58,9 +58,6 @@ ul.nav-links a:hover{
     grid-row: 1;
     text-align: center;
   
-
-    
-    
 }
 
 .b {
@@ -83,7 +80,8 @@ ul.nav-links a:hover{
 
 .b p {
 color: #53A65F;
-margin-top: 30px;
+font-size: 16px;
+margin-bottom: 100px;
 text-align: left;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -100,9 +98,19 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 h1{
   font-size: 36px;
+  margin-top: 30px;
+  text-align: center;
   color: #4C2E59;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+h2{
+    font-size: 18px;
+    color:#6D5E8C;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
 
   @media (min-width: 960px){
 
@@ -138,7 +146,7 @@ h1{
         margin: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         min-width: 100%;
-       margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
         border: none;
       
@@ -154,8 +162,8 @@ h1{
         grid-gap: 25px;
         width: 80%;
         padding: 30px 150px 0px;
-            grid-template-columns: 1fr 1fr 1fr;
-            background-color: #fff;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #fff;
         }
     
         .box {
