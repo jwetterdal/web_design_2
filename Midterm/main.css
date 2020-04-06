@@ -63,14 +63,14 @@ ul.nav-links a:hover{
 
   .texth1 {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 30px;
     left: 50%;
     transform: translate(-50%, -50%);
  
   }
 
   .texth1 h1 {
-    font-size: 36px;
+    font-size: 20px;
     font-family: 'Abril Fatface', cursive;
     color: #01400B;
     text-align: center;
@@ -202,20 +202,20 @@ h1{
     }
     
     header {
-      height: 400px;
+      height: 500px;
       background-image: url('header.jpg')
    
       }
 
       .texth1 {
         position: absolute;
-        margin-top: 100px; 
+        margin-top: 50px; 
         left: 50%;
         transform: translate(-50%, -50%);
       
       }
       .texth1 h1 {
-        font-size: 75px;
+        font-size: 45px;
         font-family: 'Abril Fatface', cursive;
         color: #01400B;
     
