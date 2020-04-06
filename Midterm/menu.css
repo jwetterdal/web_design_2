@@ -82,7 +82,8 @@ ul.nav-links a:hover{
 }
 
 .b p {
-    color: #53A65F;
+color: #53A65F;
+margin-top: 30px;
 text-align: left;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -91,6 +92,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 p {
+font-size: 20px;
 color: #53A65F;
 text-align: center;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -154,11 +156,9 @@ h1{
         padding: 30px 150px 0px;
             grid-template-columns: 1fr 1fr 1fr;
             background-color: #fff;
-            color: #444;
         }
     
         .box {
-            background-color: #444;
             color: #fff;
             border-radius: 5px;
             padding: 20px;
