@@ -38,7 +38,7 @@ ul.nav-links a:hover{
 
    header {
    height: 200px;
-   background-image: url('header.jpg');
+   background-image: url('header2.png');
    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -63,7 +63,7 @@ ul.nav-links a:hover{
 
   .texth1 {
     position: absolute;
-    margin-top: 30px;
+    margin-top: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
  
@@ -202,9 +202,11 @@ h1{
     }
     
     header {
-      height: 500px;
-      background-image: url('header.jpg')
-   
+      height: 550px;
+      background-image: url('header2.png');
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
       }
 
       .texth1 {
