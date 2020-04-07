@@ -38,6 +38,7 @@ ul.nav-links a:hover{
 
    header {
    height: 200px;
+   margin-top: 70px;
    background-image: url('header2.png');
    background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +64,6 @@ ul.nav-links a:hover{
 
   .texth1 {
     position: absolute;
-    margin-top: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
  
