@@ -211,13 +211,13 @@ h1{
 
       .texth1 {
         position: absolute;
-        margin-top: 50px; 
+        margin-top: 40px; 
         left: 50%;
         transform: translate(-50%, -50%);
       
       }
       .texth1 h1 {
-        font-size: 45px;
+        font-size: 50px;
         font-family: 'Abril Fatface', cursive;
         color: #01400B;
     
