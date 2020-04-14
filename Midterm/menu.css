@@ -120,6 +120,15 @@ h2{
 
   @media (min-width: 960px){
 
+    body{
+        background-image: url('blue.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    }
+
         img.logo {
             width: 150px;
             display:block;
@@ -164,6 +173,7 @@ h2{
     }
     
     .wrapper {
+        margin-top: 450px;
         display: grid;
         grid-gap: 25px;
         width: 80%;
