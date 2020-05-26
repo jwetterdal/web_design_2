@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <button>click me to center header</button>
+            <div style="height:auto;width:auto;position:absolute;"><h1>Behold, the Kings and Queens that Dominate the Earth</h1></div>
+            <br>
+
+      
+      </div>
+
+      <h2>  <button id="hide">Hide</button>
+        <button id="show">Show</button>
+</h2>    
+  
+
+      <!-- Photo Grid -->
+      <div class="row"> 
+        <div class="column">
+          <p><img src="bunny.jpg" style="width:100%"></p>
+          <img src="dog.jpg" style="width:100%">
+          <p><img src="wolf.jpg" style="width:100%"></p>
+          <img src="panda.jpg" style="width:100%">
+          <p><img src="cheep.jpg" style="width:100%"></p>
+          <img src="giraff.jpg" style="width:100%">
+          <img src="igelkott.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="rat.jpg" style="width:100%">
+          <img src="bambi.jpg" style="width:100%">
+          <p><img src="pinguine.jpg" style="width:100%"></p>
+          <img src="fox.jpg" style="width:100%">
+          <img src="koala.jpg" style="width:100%">
+          <p><img src="mini.jpg" style="width:100%"></p>
+        </div>  
+        <div class="column">
+          <p><img src="kiss.jpg" style="width:100%"></p>
+          <img src="duck" style="width:100%">
+          <p><img src="gos.jpg" style="width:100%"></p>
+          <img src="dogi.jpg" style="width:100%">
+          <img src="bunnii.jpg" style="width:100%">
+          <p><img src="bird.dms" style="width:100%"></p>
+          <img src="stampe.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="newborn-marmoset-gets-hand-from-zookeepers-his-first-few-hours.jpg" style="width:100%">
+          <img src="nuffs.jpg" style="width:100%">
+          <p><img src="monkey.jpg" style="width:100%"></p>
+          <img src="cottt.jpg" style="width:100%">
+          <img src="hight.jpg" style="width:100%">
+          <p><img src="doss.jpg" style="width:100%"></p>
+        </div>
+      </div>
+
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script> 
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("div").animate({left: '250px'});
+          });
+        });
+        </script> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+
+</script>
+
+</body>
+</html>
