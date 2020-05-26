@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-       <h1><button>Click me</button></h1>
+       <h1><button id="scroll">Click me</button></h1>
   <h1> <p id="p1">Cute animal pictures!</p></h1>
 
       </div>
@@ -64,7 +64,7 @@
 <script>
 $(document).ready(function(){
   $("#hide").click(function(){
-    $("p").hide();
+    $("p").hide("p");
   });
   $("#show").click(function(){
     $("p").show();
@@ -79,7 +79,7 @@ $(document).ready(function(){
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  <script>
  $(document).ready(function(){
-   $("button").click(function(){
+   $("#scroll").click(function(){
      $("#p1").css("color", "grey")
        .slideUp(1500)
        .slideDown(1500);
