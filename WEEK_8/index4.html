@@ -8,9 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-  <h1>Cute animal pictures!</h1>
+       <h1><button>Click me</button></h1>
+  <h1> <p id="p1">Cute animal pictures!</p></h1>
 
-      
       </div>
 
       <div class="header"> <button id="hide">Hide</button>
@@ -74,12 +74,18 @@ $(document).ready(function(){
   });
 });
 });
- 
+ </script>
 
-
-
-
-</script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script>
+ $(document).ready(function(){
+   $("button").click(function(){
+     $("#p1").css("color", "grey")
+       .slideUp(1500)
+       .slideDown(1500);
+   });
+ });
+ </script>
 
 </body>
 </html>
