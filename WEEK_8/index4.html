@@ -14,6 +14,7 @@
 
       <div class="header"> <button id="hide">Hide</button>
         <button id="show">Show</button>
+        <button id="w">Face</button>
     </div>    
   
 
@@ -57,15 +58,6 @@
         </div>
       </div>
 
-      
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script> 
-        $(document).ready(function(){
-          $("button").click(function(){
-            $("div").animate({left: '250px'});
-          });
-        });
-        </script> 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
@@ -76,8 +68,15 @@ $(document).ready(function(){
   $("#show").click(function(){
     $("p").show();
   });
+  $("#w").click(function(){
+    $("img").fadeTo( "slow" , 0.5, function() {
+  });
 });
-</script>
+});
+ 
+
+
+
 
 </script>
 
