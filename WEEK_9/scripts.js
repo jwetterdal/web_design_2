@@ -4,7 +4,8 @@ $(document).ready(function () {
 
     $('#tabs').tabs();
 
-    $(".draggable").draggable();
+    
+    $(".draggable").draggable({revert: "invalid"});
 
     $(".droppable").droppable({
         drop: function (event, ui) {
