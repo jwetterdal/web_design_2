@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sea Turtule Conservancy</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="nav.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+        <header>
+                <label for="toggler">
+                    <img id="imageToSwitch" onclick="changeImage()" src="nav.png">
+                </label>
+                <input type="checkbox" id="toggler">
+        
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="highlight">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="donate.html">donate</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        
+            <div class="header-shim"></div>
+    <main>
+
+    <div class="grid-header">
+        <div class="box box1"><h1>Sea Turtule Conservancy</h1><h2>We need you!</h2></div>
+
+    </div>
+    
+    <div class="container">
+    <div class="text">
+   <p>Sea turtles are large, air-breathing reptiles that inhabit tropical and subtropical seas throughout the world. Sea turtles around the world have been studied to help collect information about their growth rates, reproductive cycles and migration routes. After decades of studying sea turtles, much has been learned. However, many mysteries still remain.</p>
+    </div>
+    <div class="grid-call">
+        <div class="call box4"><a href><img src="involved.png"><h3>Get Involed!</h3></a></div>
+        <div class="call box5"><a href=""><img src="donate.png"><h3>adopt</h3></a></div>
+        <div class="call box6"><a href="donate.html"><img src="adopt.png"><h3>donate</h3></a></div>
+    </div>
+
+
+ <div class="w3-content" style="max-width:1200px">
+    <img class="mySlides" src="sea.jpg" style="width:100%;display:none">
+    <img class="mySlides" src="sea2.jpg" style="width:100%">
+    <img class="mySlides" src="sea3.jpg" style="width:100%;display:none">
+  
+    <div class="w3-row-padding w3-section">
+      <div class="w3-col s4">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="sea.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+      </div>
+      <div class="w3-col s4">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="sea2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+      </div>
+      <div class="w3-col s4">
+        <img class="demo w3-opacity w3-hover-opacity-off" src="sea3.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+</main>
+
+<footer>
+    <div class="grid-footer">
+       <div class="soclink"><img src="facebook.png">  <img src="twitter.png">  <img src="instagram.png"></div>
+       <div class="disclamer"><p> A COPY OF THE OFFICIAL REGISTRATION AND FINANCIAL INFORMATION MAY BE OBTAINED FROM THE DIVISION OF CONSUMER SERVICES BY CALLING TOLL-FREE WITHIN THE STATE. REGISTRATION DOES NOT IMPLY ENDORSEMENT, APPROVAL, OR RECOMMENDATION BY THE STATE. 1-800-HELP-FLA (435-7352), www.FloridaConsumerHelp.com</p>
+    
+        <p class="bold">© 1996 - 2020 Sea Turtle Conservancy, all rights reserved. The Sea Turtle Conservancy® logo and logo turtle are registered trademarks of the Sea Turtle Conservancy.</p>
+    </div>
+</footer>
+
+  
+<script>
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+      }
+      x[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " w3-opacity-off";
+    }
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

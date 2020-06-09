@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sea Turtule Conservancy</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="nav.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+        <header>
+                <label for="toggler">
+                    <img id="imageToSwitch" onclick="changeImage()" src="nav.png">
+                </label>
+                <input type="checkbox" id="toggler">
+        
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="highlight">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="donate.html">donate</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        
+            <div class="header-shim"></div>
+    <main>
+
+    
+    <div class="container">
+   <div class="grid-text">
+        <div class="text1">
+            <h1>About us!</h1>
+            <h3>"It is the mission of Sea Turtle Conservancy to ensure the survival of sea turtles within the Caribbean, Atlantic and Pacific through research, education, training, advocacy and protection of the natural habitats upon which they depend."</h3>
+        </div>
+        <div class="text2">
+            <p>The Sea Turtle Conservancy, formerly known as the Caribbean Conservation Corporation, is the world’s oldest sea turtle research and conservation group. An international nonprofit 501(c) 3 organization, Sea Turtle Conservancy was founded in 1959 by world-renowned sea turtle expert Dr. Archie Carr to save sea turtles from eminent extinction through rigorous science-based conservation. </p>
+        </div>
+        <div class="text3">
+            <p>Headquartered in Florida, the organization carries out worldwide programs to conserve and recover sea turtle populations through research, education, advocacy and protection of the natural habitats upon which depend upon. Over the course of nearly 60 years, Sea Turtle Conservancy’s research programs is applying this knowledge to carry out the world’s most successful sea turtle protection and recovery programs.</p>
+        </div>
+        <div class="text4">picrue</div>
+    </div>
+
+</div>
+
+</main>
+
+<footer>
+    <div class="grid-footer">
+       <div class="soclink"><img src="facebook.png">  <img src="twitter.png">  <img src="instagram.png"></div>
+       <div class="disclamer"><p> A COPY OF THE OFFICIAL REGISTRATION AND FINANCIAL INFORMATION MAY BE OBTAINED FROM THE DIVISION OF CONSUMER SERVICES BY CALLING TOLL-FREE WITHIN THE STATE. REGISTRATION DOES NOT IMPLY ENDORSEMENT, APPROVAL, OR RECOMMENDATION BY THE STATE. 1-800-HELP-FLA (435-7352), www.FloridaConsumerHelp.com</p>
+    
+        <p class="bold">© 1996 - 2020 Sea Turtle Conservancy, all rights reserved. The Sea Turtle Conservancy® logo and logo turtle are registered trademarks of the Sea Turtle Conservancy.</p>
+    </div>
+</footer>
+
+  
+<script>
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+      }
+      x[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " w3-opacity-off";
+    }
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

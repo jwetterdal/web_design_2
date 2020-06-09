@@ -6,6 +6,7 @@ $(document).ready(function () {
 
     
     $(".draggable").draggable({revert: "invalid"});
+    
 
     $(".droppable").droppable({
         drop: function (event, ui) {
