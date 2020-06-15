@@ -106,13 +106,6 @@ img {
     margin-top: 10px;
 }
 
-a > img {
-    width: 100%;
-    object-fit: contain;
-    height: 125px;
-    margin-top: 10px;
-    text-decoration: none;
-}
 
 a, u {
     text-decoration: none;
@@ -157,11 +150,6 @@ a, u {
 
 
 
-    .call>img {
-        width: 100%;
-        object-fit: contain;
-        height: 150px;
-    }
 
     h1 {
         font-family: 'Oswald', Sans-Serif;
@@ -200,9 +188,7 @@ a, u {
         background-position: center;
     }
 
-    .call {
-        border-bottom: none;
-    }
+
 
     .grid-gallery {
         display: grid;
@@ -211,11 +197,7 @@ a, u {
         grid-auto-rows: minmax(200px);
     }
 
-    .gall>img {
-        height: 200px;
-        width: 100%;
-        object-fit: cover;
-    }
+   
 }
 
 /*---------------- LARGE SECTION -------------------*/
@@ -251,17 +233,6 @@ a, u {
         grid-row: 1/3;
     }
 
- 
-
-    .call {
-        border-bottom: none;
-    }
-
-    .gall>img {
-        height: 200px;
-        width: 100%;
-        object-fit: cover;
-    }
 
     .grid-gallery {
         display: grid;
@@ -308,17 +279,9 @@ a, u {
         grid-gap: 10px;
         grid-auto-rows: minmax(300px);
     }
-
-    .gall>img {
-        height: 200px;
-        width: 100%;
-        object-fit: cover;
+    .call {
+        border-bottom: none;
     }
-
-    .call>img {
-        width: 100%;
-        object-fit: contain;
-        height: 200px;
-    }
-
+ 
+  
 }

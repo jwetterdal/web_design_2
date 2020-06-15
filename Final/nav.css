@@ -88,26 +88,32 @@ nav ul a {
     grid-auto-rows: minmax(auto);
     background-color: #012623;
 }
-.soclink{
-text-align: center;
+.soclink {
+padding-left:40px;
+padding-right:40px;
+padding-top: 5px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-auto-rows: minmax(100px, auto);
+justify-items: center;
+align-items: center;
 
 }
+
 .soclink > a {
-    width: 20%;
     object-fit: contain;
     height:20px;
-    padding-top: 20px;
     text-align: center;
     justify-content: center; 
 }
+
 .soclink > img {
-    width: 20%;
     object-fit: contain;
-    height:60px;
-    padding-top: 20px;
     text-align: center;
     justify-content: center;
 }
+
+
 
 .disclamer > p {
     padding: 25px;
