@@ -1,0 +1,7 @@
+@import url("colors.css");
+@import url("navbar.css");
+
+body {
+    margin: 0px;
+    background-color: rgb(138, 109, 156);
+}
