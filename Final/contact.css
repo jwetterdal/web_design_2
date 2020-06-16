@@ -9,6 +9,14 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
+.container {
+    text-align: center;
+}
+
+iframe {
+    text-align: center;
+    justify-content: center;
+}
 
 
 ::-webkit-input-placeholder {
@@ -109,5 +117,8 @@ textarea.contact-form-text{
     }
     h1 {
         font-size: 70px;
+    }
+    iframe {
+        text-align: center;
     }
 }
